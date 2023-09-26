@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        
+        .main { 
+            height:480px;
+            width: 450px;
+            border:solid black 0.1px;
+            padding:50px;
+            box-shadow: white 1px 1px 20px 3px;
+        }
+        body {
+             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             background-color: #000835;
+             color:white;
+             padding-top:100px
+        }
+        .main a{ 
+            padding:10px;
+            height: 1px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+        }
+        .feature { 
+            display:flex;
+            height: 50px;
+            border: solid rgb(67, 63, 255);
+            width: 100%;
+            align-content: center;
+            flex-direction: row;
+            border-radius: 40px;
+        }
+        .featureIncomplete { 
+            display:flex;
+            height: 50px;
+            border: solid rgb(255, 63, 63);
+            width: 100%;
+            align-content: center;
+            flex-direction: row;
+            border-radius: 40px;
+        }
+        input { 
+            color:rgb(0, 255, 68);
+            height: 20px;
+            width: 40px;
+            display: block;
+            justify-content: stretch;
+            justify-self: stretch;
+            align-self:stretch;
+            padding: 1px;
+        }
+        .foot { 
+            font-size: small;
+        }
+    </style>
+    <center>
+        
+ 
+    <div class="main" align="center">
+        <h1>NIA FEATURES OVERVIEW</h1>
+        <h3>Features</h3>
+        <div class="feature">
+            <a><input type="radio" name="" id="" checked>AI Text Based Chatbot</a>
+        </div>
+        <br>
+        <div class="feature">
+           <a><input type="radio" checked/>Word Processor</a>  
+        </div>
+        <br>
+        <div class="featureIncomplete">
+          <a><input type="radio" checked disabled/>Business Dashboard</a>  
+        </div>
+        <br>
+        <div class="featureIncomplete">
+          <a><input type="radio" checked disabled/>Codespace</a>  
+        </div>
+        <br>
+        <div class="featureIncomplete">
+              <a><input type="radio" checked disabled/>Project Management  &triangleq; With Team collaboration</a>
+   
+        </div>
+        <div class="foot">
+            <p>&copy; Nia</p>
+        </div>
+       </div>
+    </center>
+</body>
+</html>
