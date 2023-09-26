@@ -3,7 +3,7 @@
 
 ## What is Nia
 
-Nia Cloud is an all in one cloud based platform that allows a user to develop systems and web applications.
+Nia Cloud is an all in one cloud based platform that allows a user to work , study and be more productive.
 </div>
 
 
